@@ -1,8 +1,26 @@
 {
-  "name": "blackboxai",
-  "version": "1.0.0",
+  "name": "blackboxai-cli",
+  "version": "1.0.2",
+  "description": "CLI client to use Blackbox AI",
   "main": "./src/index.js",
-  "bin": "./bin/blackbox",
+  "bin": {
+    "blackbox": "bin/blackbox.js"
+  },
+  "keywords": [
+    "blackboxai",
+    "cli",
+    "artificial intelligence",
+    "machine learning",
+    "command-line interface",
+    "ai tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodnye/blackbox-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodnye/blackbox-cli/issues"
+  },
   "dependencies": {
     "axios": "^1.6.7",
     "chokidar": "^3.6.0",

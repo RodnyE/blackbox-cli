@@ -3,11 +3,9 @@
 
 ## Getting Started
 
-To get started, run the following commands:
+To get started, run the following command:
 ```bash
-npm install
-
-npm link blackbox
+npm install -g blackboxai-cli
 ```
 
 ## Usage
