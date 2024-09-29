@@ -1,10 +1,10 @@
 {
   "name": "blackboxai-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI client to use Blackbox AI",
   "main": "./src/index.js",
   "bin": {
-    "blackbox": "bin/blackbox.js"
+    "blackbox": "bin/blackbox"
   },
   "keywords": [
     "blackboxai",
