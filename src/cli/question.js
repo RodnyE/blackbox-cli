@@ -22,7 +22,7 @@ const questionCommand = async () => {
     input: process.stdin,
     output: process.stdout
   });
-  rl.setPrompt('> ');
+  rl.setPrompt('');
   rl.prompt();
  
   rl.on('line', (line) => {
