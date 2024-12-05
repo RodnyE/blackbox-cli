@@ -2,7 +2,7 @@
 const axios = require('axios');
 const { getConfig } = require('./store.js');
 const { prompt } = require('../utils/prompt.js');
-const blackboxApiUrl = 'https://www.blackbox.ai/api/chat';
+const blackboxApiUrl = 'https://api.blackbox.ai/api/chat';
 
 /**
  * 
